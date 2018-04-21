@@ -1,3 +1,5 @@
+const RandomDie = require('./RandomDie');
+
 module.exports = {
   hello: () => 'Hello world!',
   quoteOfTheDay: () => {

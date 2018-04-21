@@ -7,7 +7,7 @@ const app = express();
 app.use((req, res, next) => {
   console.log(req.url, '------ request url');
   next();
-})
+});
 
 app.use('/graphql', graphqlHTTP({
   schema: schema,

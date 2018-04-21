@@ -33,7 +33,7 @@ const rootMessage = {
   getAllId: () => {
     return Object.keys(fakeDatabase)
   }
-}
+};
 
 module.exports = {
   Message,

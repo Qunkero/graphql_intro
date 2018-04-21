@@ -1,5 +1,4 @@
 const { buildSchema } = require('graphql');
-const RandomDie = require('./resolverFunction/RandomDie');
 const { Message, rootMessage }  = require('./resolverFunction/Message');
 const root = require('./resolverFunction/rootResolve');
 
